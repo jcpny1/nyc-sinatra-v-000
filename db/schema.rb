@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(version: 4) do
 
   create_table "figure_titles", force: :cascade do |t|
-    t.integer "figures_id"
-    t.integer "titles_id"
+    t.integer "figure_id"
+    t.integer "title_id"
   end
 
   create_table "figures", force: :cascade do |t|
